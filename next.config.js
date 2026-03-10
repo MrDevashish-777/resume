@@ -10,18 +10,15 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   
-  // Configure standalone output for Netlify
-  output: 'standalone',
-  
   // Compress generated pages
   compress: true,
   
   // Enable SWR (Stale-While-Revalidate) for static pages
   staticPageGenerationTimeout: 300,
-  
-  // Optimize fonts
-  optimizeFonts: true,
-  
+
+  // Enable standalone output for Netlify
+  output: 'standalone',
+
   // Production source maps (optional - reduces bundle size if disabled)
   productionBrowserSourceMaps: false,
   

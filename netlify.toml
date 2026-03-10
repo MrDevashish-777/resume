@@ -4,8 +4,6 @@
 [build]
   # Next.js build command
   command = "npm run build"
-  # Directory with the built files to deploy
-  publish = ".next/standalone"
   
   # Environment variables for build
   [build.environment]
@@ -13,10 +11,7 @@
     NPM_FLAGS = "--legacy-peer-deps"
 
 # Routing configuration
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# Next.js handles routing through its own mechanisms.
 
 # Cache rules for static assets
 [[headers]]
