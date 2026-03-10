@@ -1,0 +1,18 @@
+# Files to ignore during Netlify build
+.git
+.gitignore
+tests/
+test-results/
+playwright-report/
+playwright.config.ts
+.zencoder/
+.zenflow/
+server.log
+*.md
+LICENSE
+.vscode/
+.env.local
+.env.development.local
+.env.test.local
+.DS_Store
+Thumbs.db
